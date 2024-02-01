@@ -1,0 +1,35 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "An API using express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alangomezp/express-api.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "express"
+  ],
+  "author": "Alan Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alangomezp/express-api/issues"
+  },
+  "homepage": "https://github.com/alangomezp/express-api#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}

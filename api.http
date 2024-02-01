@@ -1,0 +1,11 @@
+### Pokemon API
+GET http://localhost:3000/pokemon HTTP/1.1
+
+### Create a new pokemon
+POST http://localhost:3000/create HTTP/1.1
+Content-Type: "application/json"
+
+{
+  "name": "Pikachu",
+  "type": "Electric"
+}
